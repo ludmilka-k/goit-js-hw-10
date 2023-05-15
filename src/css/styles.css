@@ -17,4 +17,27 @@ body {
   padding: 8px;
   max-width: 320px;
   margin-bottom: 16px;
+  border: solid 1px teal;
+ 
+}
+
+.country-item {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.country-item img {
+  margin-right: 10px;
+}
+
+.country-item-wrap {
+  display: flex;
+  align-items: center;
+}
+
+.country-item-wrap img {
+  margin-right: 10px;
 }
